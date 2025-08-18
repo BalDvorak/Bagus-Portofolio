@@ -90,6 +90,7 @@ By clustering counties in the U.S. coastal areas, we identified distinct health 
 
 
 ![Project 4 Banner](https://drive.google.com/uc?export=view&id=1VE8pU9a8PKfSS9cv_513zVO59c0-Wop-)
+<img src="https://drive.google.com/uc?export=view&id=1VE8pU9a8PKfSS9cv_513zVO59c0-Wop-" alt="Project 1 Banner" width="700" />
 
 
 🔗 **Resources**:  
