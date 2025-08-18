@@ -88,7 +88,7 @@ By clustering counties in the U.S. coastal areas, we identified distinct health 
     - Cluster 4: High-risk, severe health & socioeconomic issues.  
   - Silhouette Score ≈ **0.2** → moderate clustering quality.  
 
-![Poster]([https://raw.githubusercontent.com/username/repo/main/images/diagram.png](https://drive.google.com/file/d/1VE8pU9a8PKfSS9cv_513zVO59c0-Wop-/view?usp=sharing))
+![Poster](https://drive.google.com/file/d/1VE8pU9a8PKfSS9cv_513zVO59c0-Wop-/view?usp=sharing)
 
 🔗 **Resources**:  
 - 📄 [Full Report (PDF)](./Laporan_Penelitian_PemodelanMatematis5B.pdf)  
