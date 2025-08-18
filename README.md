@@ -44,23 +44,52 @@ We compared traditional machine learning and transformer-based models, finding t
 
 ---
 
-### 🔹 [Project 3: Sentiment Analysis of IKN on Platform X through Fine-Tuning IndoBERTweet](#)
-- **Goal**: Perform sentiment analysis of public opinion on IKN (Ibu Kota Nusantara) using **IndoBERTweet**.  
-- **Methods**: Transformer-based NLP (Fine-tuned IndoBERTweet).  
-- **Highlights**:  
-  - Preprocessing with tokenization and stopword removal.  
-  - Fine-tuned IndoBERTweet for sentiment classification.  
-  - Improved accuracy compared to baseline models.  
+### 🔹 [Project 3: Sentiment Analysis of IKN on Platform X with IndoBERTweet](#)
+This project analyzes public sentiment towards the relocation of Indonesia’s new capital city (IKN) using tweets from Platform X.  
+We fine-tuned **IndoBERTweet**, a transformer model optimized for Indonesian social media text, to classify sentiments into positive, negative, and neutral.
+
+- **Goal**: Understand public opinion on IKN by applying advanced NLP techniques.  
+- **Dataset**: 2,177 tweets labeled as Positive, Negative, or Neutral.  
+- **Methods**:  
+  - Text preprocessing (cleaning hashtags, emojis, links, normalization).  
+  - Resampling to handle class imbalance.  
+  - Fine-tuning IndoBERTweet with Hugging Face Trainer API and early stopping.  
+- **Results**:  
+  - ✅ Accuracy: **96%**  
+  - Precision/Recall/F1 all above **0.94** across sentiment classes.  
+  - Positive sentiment dominates (~67%), followed by Negative (~31%), and Neutral (~2%).  
+- **Insights**:  
+  - **Positive**: Support for IKN development and social benefits.  
+  - **Negative**: Concerns about infrastructure, economic risks, and governance.  
+  - **Neutral**: Mostly factual or informational tweets.  
+
+🔗 **Resources**:  
+- [Google Colab Notebook](https://colab.research.google.com/drive/1ab80Rz4aHF2M7zeWLRJBVCvaWCpVTGDU?usp=sharing)  
 
 ---
 
-### 🔹 [Project 4: Level of Public Health in Coastal Areas Using KMeans Clustering](#)
-- **Goal**: Cluster coastal regions based on public health indicators.  
-- **Methods**: Unsupervised learning (K-Means clustering).  
-- **Highlights**:  
-  - Analyzed health-related datasets from coastal areas.  
-  - Identified cluster patterns for health policy recommendations.  
-  - Provided insights for targeted interventions.  
+### 🔹 [Project 4: Public Health Clustering in Coastal Areas](#)
+This project applies **K-Means clustering** to analyze the level of public health across coastal regions using socioeconomic and health indicators.  
+By clustering counties in the U.S. coastal areas, we identified distinct health patterns that can guide better policy interventions.
+
+- **Goal**: Group coastal regions based on public health indicators to identify areas needing urgent attention.  
+- **Dataset**: 155 U.S. coastal counties, 30 features (health, environment, socioeconomic indicators) from [County Health Rankings](https://www.countyhealthrankings.org).  
+- **Methods**:  
+  - Data preprocessing (duplicate removal, missing value imputation, scaling).  
+  - Exploratory Data Analysis (EDA).  
+  - K-Means clustering with **Elbow Method** & **Silhouette Score** for optimal K.  
+- **Results**:  
+  - Optimal clusters: **5**.  
+  - Cluster insights:  
+    - Cluster 0: Poor health, low life expectancy, weak economy.  
+    - Cluster 1: High well-being, good healthcare access, high income.  
+    - Cluster 2: Balanced health & social conditions, strong healthcare access.  
+    - Cluster 3: Very low health, high obesity/smoking, economic inequality.  
+    - Cluster 4: High-risk, severe health & socioeconomic issues.  
+  - Silhouette Score ≈ **0.2** → moderate clustering quality.  
+
+🔗 **Resources**:  
+- 📄 [Full Report (PDF)](./Laporan_Penelitian_PemodelanMatematis5B.pdf)  
 ---
 
 ## 🛠️ Tech Stack  
