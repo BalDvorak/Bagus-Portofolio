@@ -93,7 +93,7 @@ By clustering counties in the U.S. coastal areas, we identified distinct health 
 
 
 🔗 **Resources**:  
-- 📄 [Full Report (PDF)](./Laporan_Penelitian_PemodelanMatematis5B.pdf)  
+- 📄 [Full Report (PDF)](https://drive.google.com/file/d/17w0fwRnG1ZgCRCqRcEvs6riILE2mSC3W/view?usp=sharing)  
 ---
 
 ## 🛠️ Tech Stack  
