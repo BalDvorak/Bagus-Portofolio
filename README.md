@@ -99,8 +99,7 @@ By clustering counties in the U.S. coastal areas, we identified distinct health 
 ## 🛠️ Tech Stack  
 - **Languages**: Python, SQL  
 - **Libraries & Frameworks**: Scikit-Learn, TensorFlow, PyTorch, Transformers, NLTK, Pandas, NumPy, Matplotlib, Seaborn  
-- **Tools**: Jupyter Notebook, Google Colab, Git, SmartPLS  
-
+- **Tools**: Jupyter Notebook, Google Colab, VSCode
 ---
 
 ## 📫 Connect with Me  
