@@ -103,7 +103,7 @@ By clustering counties in the U.S. coastal areas, we identified distinct health 
 ---
 
 ## 📫 Connect with Me  
-- LinkedIn: [[Your LinkedIn Link](https://www.linkedin.com/in/bagus-al-farizi/)]  
+- LinkedIn: [[My LinkedIn Link](https://www.linkedin.com/in/bagus-al-farizi/)]  
 - Email: [bagusal.work@gmail.com]  
 
 ---
